@@ -15,7 +15,7 @@ public class Main {
         libraryController.addBook("1", "king", category1);
         libraryController.addBook("2", "role", category2);
         
-        libraryController.removeBook(2);
+        libraryController.removeBook("2");
 
         libraryController.getAllBooks();
         
